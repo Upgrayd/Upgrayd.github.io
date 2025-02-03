@@ -638,17 +638,34 @@
       <div class="space-y-8 ">
         <!-- Pricing Card -->
         <!-- Pricing Card -->
+
+
+
         <div
-          class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-          <h3 class="mb-4 text-2xl font-semibold"></h3>
-          <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400"></p>
-          <div class="flex items-baseline justify-center my-8">
-            <span class="mr-2 text-5xl font-extrabold">€99</span>
-            <span class="text-gray-500 dark:text-gray-400" dark:text-gray-400>/mese</span>
+          class="relative flex flex-col max-w-md p-8 mx-auto text-center bg-white rounded-lg shadow dark:bg-gray-800">
+          <!-- Discount Badge -->
+          <div class="absolute top-2 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-bold mb-2">
+            33% OFF
           </div>
-          <!-- List -->
-          <ul role="list" class="mb-8 space-y-4 text-left">
-            <li class="flex items-center space-x-3">
+
+          <!-- Header -->
+          <h2 class="text-3xl font-bold mb-2">Offerta Speciale</h2>
+          <p class="text-gray-900 dark:text-gray-800 mb-6">Per i primi 10 iscritti</p>
+
+          <!-- Price Block -->
+          <div class="border-y border-gray-200 dark:border-gray-700 py-4 mb-6">
+            <div class="flex items-center justify-center gap-3">
+              <!-- Original Price -->
+              <span class="text-xl text-gray-500 line-through">€149</span>
+              <!-- Discounted Price -->
+              <span class="text-5xl font-extrabold">€99</span>
+            </div>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">al mese</p>
+          </div>
+
+          <!-- Features List -->
+          <ul class="mb-6 space-y-4 text-center">
+            <li class="flex items-center gap-3 text-left">
               <!-- Icon -->
               <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -658,51 +675,45 @@
               </svg>
               <span class="font-semibold">Interrompi quando vuoi</span>
             </li>
-            <li class="flex items-center space-x-3">
-              <!-- Icon -->
+            <li class="flex items-center gap-3 text-left">
               <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="font-semibold">Garanzia rimborso nel caso in cui non trovi lavoro</span>
+              <span class="font-semibold">Garanzia rimborso se non trovi lavoro</span>
             </li>
-            <li class="flex items-center space-x-3">
-              <!-- Icon -->
+            <li class="flex items-center gap-3 text-left">
               <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="font-semibold">Libertà assoluta quando e come studiare</span>
+              <span class="font-semibold">Libertà assoluta nel decidere gli orari di studio</span>
             </li>
-            <li class="flex items-center space-x-3">
-              <!-- Icon -->
+            <li class="flex items-center gap-3 text-left">
               <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="font-semibold">Chat Discord privata dedicata agli
-                studenti</span>
+              <span class="font-semibold">Chat Discord privata per gli studenti per richiedere aiuto</span>
             </li>
-            <li class="flex items-center space-x-3">
-              <!-- Icon -->
+            <li class="flex items-center gap-3 text-left">
               <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd"
                   d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                   clip-rule="evenodd"></path>
               </svg>
-              <span class="font-semibold">Professore disponibile 5 giorni alla settimana per aiutarvi a risolvere
-                qualsiasi problema</span>
+              <span class="font-semibold">Supporto dal professore 5 giorni a settimana</span>
             </li>
-
           </ul>
         </div>
+
         <!-- Pricing Card -->
       </div>
     </div>
